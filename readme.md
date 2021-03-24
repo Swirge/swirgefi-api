@@ -1,4 +1,4 @@
-# Swirge API
+# Swirge Finance API
 
 API that powers [Swirge Finance](https://finance.swirge.com). You can find the repo for the frontend [here](https://github.com/swirge/swirgefi-app).
 
