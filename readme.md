@@ -41,7 +41,7 @@ After you start the API it can take a minute or two before you can fetch the APY
 ### Consumed by third party platforms
 
 **/cmc**: Custom endpoint required by [CoinMarketCap](https://coinmarketcap.com/) to display our vaults in their yield farming section.
-**/supply**: Used by [Coingecko](https://coingecko.com) to display BIFI's total supply and circulating supply.
+**/supply**: Used by [Coingecko](https://coingecko.com) to display SWGb's total supply and circulating supply.
 
 ### Consumed by the [dashboard](https://dashboard.swirge.com)
 
