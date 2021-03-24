@@ -1,0 +1,164 @@
+[
+  {
+    "name": "auto-comp-eth",
+    "address": "0x0392957571F28037607C14832D16f8B653eDd472",
+    "decimals": "1e18",
+    "poolId": 45,
+    "lp0": {
+      "address": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+      "oracle": "pancake",
+      "oracleId": "ETH",
+      "decimals": "1e18"
+    },
+    "lp1": {
+      "address": "0x52CE071Bd9b1C4B00A0b92D298c512478CaD67e8",
+      "oracle": "pancake",
+      "oracleId": "COMP",
+      "decimals": "1e18"
+    }
+  },
+  {
+    "name": "auto-hget-bnb",
+    "address": "0x66b9E1eAc8a81F3752F7f3A5E95dE460688A17Ee",
+    "decimals": "1e18",
+    "poolId": 63,
+    "lp0": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "oracle": "pancake",
+      "oracleId": "WBNB",
+      "decimals": "1e18"
+    },
+    "lp1": {
+      "address": "0xC7d8D35EBA58a0935ff2D5a33Df105DD9f071731",
+      "oracle": "pancake",
+      "oracleId": "HGET",
+      "decimals": "1e6"
+    }
+  },
+  {
+    "name": "auto-ctk-bnb",
+    "address": "0x7793870484647a7278907498ec504879d6971EAb",
+    "decimals": "1e18",
+    "poolId": 62,
+    "lp0": {
+      "address": "0xA8c2B8eec3d368C0253ad3dae65a5F2BBB89c929",
+      "oracle": "pancake",
+      "oracleId": "CTK",
+      "decimals": "1e6"
+    },
+    "lp1": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "oracle": "pancake",
+      "oracleId": "WBNB",
+      "decimals": "1e18"
+    }
+  },
+  {
+    "name": "auto-ust-busd",
+    "address": "0xD1F12370b2ba1C79838337648F820a87eDF5e1e6",
+    "decimals": "1e18",
+    "poolId": 32,
+    "lp0": {
+      "address": "0x23396cF899Ca06c4472205fC903bDB4de249D6fC",
+      "oracle": "pancake",
+      "oracleId": "UST",
+      "decimals": "1e18"
+    },
+    "lp1": {
+      "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+      "oracle": "pancake",
+      "oracleId": "BUSD",
+      "decimals": "1e18"
+    }
+  },
+  {
+    "name": "auto-cake-bnb",
+    "address": "0xA527a61703D82139F8a06Bc30097cC9CAA2df5A6",
+    "decimals": "1e18",
+    "poolId": 8,
+    "lp0": {
+      "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+      "oracle": "pancake",
+      "oracleId": "Cake",
+      "decimals": "1e18"
+    },
+    "lp1": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "oracle": "pancake",
+      "oracleId": "WBNB",
+      "decimals": "1e18"
+    }
+  },
+  {
+    "name": "auto-busd-bnb",
+    "address": "0x1B96B92314C44b159149f7E0303511fB2Fc4774f",
+    "decimals": "1e18",
+    "poolId": 10,
+    "lp0": {
+      "address": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+      "oracle": "pancake",
+      "oracleId": "BUSD",
+      "decimals": "1e18"
+    },
+    "lp1": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "oracle": "pancake",
+      "oracleId": "WBNB",
+      "decimals": "1e18"
+    }
+  },
+  {
+    "name": "auto-btc-bnb",
+    "address": "0x7561EEe90e24F3b348E1087A005F78B4c8453524",
+    "decimals": "1e18",
+    "poolId": 11,
+    "lp0": {
+      "address": "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
+      "oracle": "pancake",
+      "oracleId": "BTCB",
+      "decimals": "1e18"
+    },
+    "lp1": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "oracle": "pancake",
+      "oracleId": "WBNB",
+      "decimals": "1e18"
+    }
+  },
+  {
+    "name": "auto-beth-eth",
+    "address": "0x99d865Ed50D2C32c1493896810FA386c1Ce81D91",
+    "decimals": "1e18",
+    "poolId": 44,
+    "lp0": {
+      "address": "0x250632378e573c6be1ac2f97fcdf00515d0aa91b",
+      "oracle": "pancake",
+      "oracleId": "BETH",
+      "decimals": "1e18"
+    },
+    "lp1": {
+      "address": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+      "oracle": "pancake",
+      "oracleId": "ETH",
+      "decimals": "1e18"
+    }
+  },
+  {
+    "name": "auto-auto-bnb",
+    "address": "0x4d0228EBEB39f6d2f29bA528e2d15Fc9121Ead56",
+    "decimals": "1e18",
+    "poolId": 6,
+    "lp0": {
+      "address": "0xa184088a740c695e156f91f5cc086a06bb78b827",
+      "oracle": "pancake",
+      "oracleId": "AUTO",
+      "decimals": "1e18"
+    },
+    "lp1": {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "oracle": "pancake",
+      "oracleId": "WBNB",
+      "decimals": "1e18"
+    }
+  }
+]
