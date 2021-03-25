@@ -10,7 +10,7 @@ const { DAILY_HPY } = require('../../../../constants');
 const BIFI = '0xe40255c5d7fa7ceec5120408c78c787cecb4cfdb';
 const REWARDS = '0x9CBce88c77DA23d5DC5Ae18580b5f5AaBc3a9A73';
 const ORACLE = 'pancake';
-const ORACLE_ID = 'SWGB';
+const ORACLE_ID = 'BIFI';
 const DECIMALS = '1e18';
 const BLOCKS_PER_DAY = 28800;
 
