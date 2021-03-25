@@ -1,18 +1,26 @@
 'use strict';
+const axios = require('axios');
 
-function supply(ctx) {
+const url = 'https://app.swirge.com/supply/circulation';
+
+const getSupply = async ()=>{
+  const circulation = (await axios.get(url)).data;
+  console.log(circulation);
+  return circulation;
+}
+
+async function supply(ctx) {
   ctx.body = {
-    total: 80000,
-    circulating: 76000
+    total: (await getSupply()).totalSupply,
+    circulating: (await getSupply()).totalCirculation
   };
 }
 
-function total(ctx) {
-  ctx.body = 80000;
+async function total(ctx) {
+  ctx.body = (await getSupply()).totalSupply;
 }
 
-function circulating(ctx) {
-  ctx.body = 76000;
+async function circulating(ctx) {
+  ctx.body = (await getSupply()).totalCirculation;
 }
-
 module.exports = { supply, total, circulating };
