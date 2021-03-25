@@ -1,6 +1,6 @@
-# Beefy API
+# Swirge Finance API
 
-API that powers [Beefy Finance](https://app.beefy.finance). You can find the repo for the frontend [here](https://github.com/beefyfinance/beefy-app).
+API that powers [Swirge Finance](https://finance.swirge.com). You can find the repo for the frontend [here](https://github.com/swirge/swirgefi-app).
 
 ## To Run
 
@@ -19,13 +19,13 @@ yarn start
 
 ## Endpoints
 
-### Consumed by the [app](https://app.beefy.finance).
+### Consumed by the [app](https://finance.swirge.com).
 
 **/apy**: The main endpoint used by the frontend. It returns the APY of all the vaults in the following format.
 
 ```
 {
-	"bifi-maxi": 0.22448469479728606, // 22%
+	"swgb-maxi": 0.22448469479728606, // 22%
 	"cake-cake": 2.8002377054263174, // 280%
 	"cake-smart": 2.8002377054263174, // 280%
 	"cake-swingby-bnb": 21.85102752680053 // 2185%
@@ -41,16 +41,16 @@ After you start the API it can take a minute or two before you can fetch the APY
 ### Consumed by third party platforms
 
 **/cmc**: Custom endpoint required by [CoinMarketCap](https://coinmarketcap.com/) to display our vaults in their yield farming section.
-**/supply**: Used by [Coingecko](https://coingecko.com) to display BIFI's total supply and circulating supply.
+**/supply**: Used by [Coingecko](https://coingecko.com) to display SWGb's total supply and circulating supply.
 
-### Consumed by the [dashboard](https://dashboard.beefy.finance)
+### Consumed by the [dashboard](https://dashboard.swirge.com)
 
 **/earnings**: Used to display the total and daily earnings of the platform.
-**/holders**: Used to display the total number of holders. This calc takes into account users with 0 BIFI in their wallet, but BIFI staked in the reward pool.
+**/holders**: Used to display the total number of holders. This calc takes into account users with 0 SWGb in their wallet, but SWGb staked in the reward pool.
 
 ## Contribute
 
-Beefy.Finance exists thanks to its contributors. There are many ways you can participate and help build high quality software. Check out the [contribution guide](CONTRIBUTING.md)!
+Swirge Finance exists thanks to its contributors. There are many ways you can participate and help build high quality software. Check out the [contribution guide](CONTRIBUTING.md)!
 
 ## License
 
