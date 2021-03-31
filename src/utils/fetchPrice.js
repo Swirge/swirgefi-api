@@ -57,7 +57,7 @@ const fetchMirror = async id => {
         price = Number(asset.prices.price);
       }
     });
-
+    console.log(price, 'price')
     return price;
   } catch (err) {
     console.error('fetchMirror error:', err);
