@@ -4,7 +4,7 @@
   "repository": "beefyfinance/beefy-api",
   "license": "MIT",
   "scripts": {
-    "start": "node src/app.js",
+    "start": "forever start src/app.js",
     "dev": "nodemon src/app.js",
     "test": "nyc ava"
   },
